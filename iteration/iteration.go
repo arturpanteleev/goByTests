@@ -1,0 +1,10 @@
+package iteration
+
+func Repeat(s string, times int) string {
+	res := ""
+	for i := 0; i < times; i++ {
+		res += s
+	}
+
+	return res
+}
